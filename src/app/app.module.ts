@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { CustomPipesPipe } from './index/custom-pipes.pipe';
 import { DirectiveComponent } from './directive/directive.component';
-import { LifeCycleComponent } from './life-cycle/life-cycle.component';
+import { ObservablesComponent } from './observables/observables.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { LifeCycleComponent } from './life-cycle/life-cycle.component';
     IndexComponent,
     CustomPipesPipe,
     DirectiveComponent,
-    LifeCycleComponent
+    ObservablesComponent
   ],
   imports: [
     BrowserModule,
