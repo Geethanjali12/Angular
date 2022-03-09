@@ -1,0 +1,27 @@
+<h1>{{name}}</h1>
+
+<h4>Build in pipes</h4>
+
+<div>Date: {{day | date:'dd/MM/yyyy'}}</div>
+
+<div>Number: {{number | number:'7.4-4'}}</div> 
+
+<div>Percentage: {{percentage | percent:'5.2-3'}}</div>
+
+<div>Currency: {{percentage | currency:'INR'}}</div>
+
+<div>UpperCase: {{'geetha' | uppercase}}</div>
+
+<div>LowerCase: {{'GEETHA' | lowercase}}</div>
+
+<div>Title Case: {{'geethanjali ganesan' | titlecase}}</div>
+
+<div>JSON: {{obj | json}}</div>
+
+<div>Slice: {{array | slice: 1:3}}</div>
+
+<div>Key Value Pair: {{obj | keyvalue | json}}</div>
+
+<h4>Custom Pipes</h4>
+
+<div>{{name | customPipes:name}}</div>
