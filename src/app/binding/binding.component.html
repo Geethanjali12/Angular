@@ -1,0 +1,28 @@
+<p class="{{className}}">Some text</p>
+
+<div>
+    {{className}}
+    <input id="geetha" value="Geetha" (change)="print($event)">
+</div>
+<div>
+    {{classesName}}
+    <input id="Geetha" [(ngModel)]="classesName">
+</div>
+<div>
+    <table>
+        <tbody>
+            <tr>
+                <td [attr.colspan] = "3">Full Data</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+            </tr>
+            <tr>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 3</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
