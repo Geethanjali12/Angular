@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { CustomPipesPipe } from './index/custom-pipes.pipe';
+import { DirectiveComponent } from './directive/directive.component';
+import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    CustomPipesPipe
+    CustomPipesPipe,
+    DirectiveComponent,
+    LifeCycleComponent
   ],
   imports: [
     BrowserModule,

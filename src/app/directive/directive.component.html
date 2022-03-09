@@ -1,0 +1,19 @@
+<h2>Structural Directive</h2>
+
+<h4>*ngIf:</h4>
+
+<div *ngIf="users">Users are present</div>
+
+<h4>*ngFor:</h4>
+
+<div *ngFor="let user of users">{{user.name}}</div>
+
+<h4>*ngSwitch:</h4>
+
+<div *ngFor="let user of users">
+<div [ngSwitch]="user.gender">
+    <div class="female" *ngSwitchCase="'f'">{{user.name}}</div>
+    <div class="male" *ngSwitchCase="'m'">{{user.name}}</div>
+    <div class="" *ngSwitchDefault>{{user.name}}</div>
+</div>
+</div>
